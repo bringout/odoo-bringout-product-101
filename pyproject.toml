@@ -1,0 +1,37 @@
+[project]
+name = "odoo-bringout-product-101"
+version = "1.0.0"
+description = "Create new product 'product 101' into Odoo database and show it on console"
+authors = [
+    { name = "Ernad Husremovic", email = "hernad@bring.out.ba" }
+]
+dependencies = [
+    "odoo-bringout-oca-ocb-base>=16.0.0",
+    "odoo-bringout-oca-ocb-product>=16.0.0",
+    "requests>=2.32.5",
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+
+[project.scripts]
+odoo-product-101 = "product_101_main:show"
+
+[project.urls]
+homepage = "https://github.com/bringout/odoo-bringout-product-101"
+repository = "https://github.com/bringout/odoo-bringout-product-101"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.4.1",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["product_101", "product_101_main.py"]
