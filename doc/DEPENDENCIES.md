@@ -3,4 +3,4 @@
 This addon depends on:
 
 - base
-- [product](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-product)
+- [product](https://github.com/bringout/oca-ocb-sale)
