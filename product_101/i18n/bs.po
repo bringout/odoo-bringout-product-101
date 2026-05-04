@@ -13,15 +13,13 @@ msgid ""
 "<span>This is Product 101 - a demo product created by pythonic Odoo "
 "development</span>"
 msgstr ""
-"<span>This is Product 101 - a demo product created by pythonic Odoo "
-"development</span>"
 
 #. module: product_101
 #: model:ir.model,name:product_101.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: product_101
 #: model:product.template,name:product_101.product_product_101
 msgid "Product 101"
-msgstr "Product 101"
+msgstr ""
